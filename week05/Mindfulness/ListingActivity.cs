@@ -43,6 +43,6 @@ public class ListingActivity : Activity
             }
         }
 
-        Console.WriteLine($"\nYou listed {userItems.Count} items!");
+        Console.WriteLine($"\nYou listed {userItems.Count} items!" );
     }
 }

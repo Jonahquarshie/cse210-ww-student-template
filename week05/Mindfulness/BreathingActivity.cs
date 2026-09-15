@@ -9,7 +9,7 @@ public class BreathingActivity : Activity
 
     protected override void ExecuteActivity()
     {
-        DateTime endTime = DateTime.Now.AddSeconds(Duration);
+        DateTime endTime = DateTime.Now.AddSeconds( Duration);
         
         while (DateTime.Now < endTime)
         {

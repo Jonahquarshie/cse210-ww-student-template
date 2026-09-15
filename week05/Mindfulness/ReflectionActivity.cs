@@ -60,7 +60,7 @@ public class ReflectionActivity : Activity
     {
         if (_unusedQuestions.Count == 0)
         {
-            _unusedQuestions = new List<string>(_questions);
+            _unusedQuestions = new List<string>(_questions );
         }
 
         int index = _random.Next(_unusedQuestions.Count);

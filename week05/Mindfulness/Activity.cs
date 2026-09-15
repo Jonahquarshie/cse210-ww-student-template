@@ -8,7 +8,7 @@ public abstract class Activity
     private string _description;
     private int _duration;
 
-    protected Activity(string name, string description)
+    protected Activity(string name, string description )
     {
         _name = name;
         _description = description;
