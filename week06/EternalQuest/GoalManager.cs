@@ -189,7 +189,7 @@ public class GoalManager
             }
             else if (type == "NegativeGoal")
             {
-                _goals.Add(new NegativeGoal(goalData[0], goalData[1], int.Parse(goalData[2])));
+                _goals.Add(new NegativeGoal(goalData[0], goalData[1], int.Parse(goalData[2]))) ;
             }
         }
         Console.WriteLine("Goals loaded successfully!");

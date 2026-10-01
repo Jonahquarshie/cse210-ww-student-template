@@ -18,7 +18,7 @@ public class ChecklistGoal : Goal
         _bonus = bonus;
     }
 
-    public override int RecordEvent()
+    public override int RecordEvent() 
     {
         if (_amountCompleted < _target)
         {

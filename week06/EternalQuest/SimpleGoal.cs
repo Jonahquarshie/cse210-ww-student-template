@@ -27,7 +27,7 @@ public class SimpleGoal : Goal
     public override string GetDetailsString()
     {
         string statusSymbol = _isComplete ? "X" : " ";
-        return $"[{statusSymbol}] {ShortName} ({Description})";
+        return $"[{statusSymbol}] {ShortName} ({Description}) ";
     }
 
     public override string GetStringRepresentation()

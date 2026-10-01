@@ -17,6 +17,6 @@ public class NegativeGoal : Goal
 
     public override string GetStringRepresentation()
     {
-        return $"NegativeGoal:{ShortName},{Description},{Points}";
+        return $"NegativeGoal:{ShortName},{Description},{Points} ";
     }
 }
